@@ -13,4 +13,5 @@ def get_sum_of_terms():
     sum_add = a1 + a2
     series_sum = n * sum_add / 2
 
-    print(f'The sum of the first {n} terms in the series is:', series_sum)
+    return series_sum
+   

@@ -1,4 +1,4 @@
-from dot_product import get_dot_product
+from dot_product import user_input_dot_product
 from series_sum import get_sum_of_terms
 
 # Choices for the user
@@ -22,8 +22,8 @@ if __name__ == "__main__":
     print()
 
     if choice == 1:
-        get_dot_product()
+        user_input_dot_product()
     elif choice == 2:
-        get_sum_of_terms()
+        print('The sum of the first n terms in the series is:', get_sum_of_terms())
     else:
         raise Exception('Invalid Input.')
