@@ -4,12 +4,14 @@ from series_sum import get_sum_of_terms
 # Choices for the user
 options = {
     '1': 'Calculate the dot product of two vectors.',
-    '2': 'Get the sum of the first n terms in a series.'
+    '2': 'Get the sum of the first n terms in an arithmetic series.'
 }
 
 
 if __name__ == "__main__":
     
+    print() # Blank line for readability
+
     # Show the user their choices
     for key, val in options.items():
         
