@@ -39,7 +39,4 @@ def get_dot_product(angle, vector_a, vector_b):
     # Calculate the dot product, based on obtained values
     dot_product = vector_a * vector_b * cos(rad_conversion)
 
-    # Round off the dot product to 2 digits
-    rounded = round(dot_product, 2)
-
-    return rounded
+    return round(dot_product, 2)

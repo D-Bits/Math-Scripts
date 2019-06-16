@@ -15,3 +15,12 @@ def get_sum_of_terms():
 
     return series_sum
    
+
+""" Create a parameterized version of the above 
+function, for unit testing purposes """
+def sum_of_terms(n , a1, a2):
+
+    sum_add = a1 + a2
+    series_sum = n * sum_add / 2
+
+    return series_sum
