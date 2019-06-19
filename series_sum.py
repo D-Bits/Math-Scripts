@@ -1,5 +1,5 @@
 """
-Find the sum the first n terms in a series.  
+Find the sum the first n terms in a arithmetic series.  
 """
 
 
