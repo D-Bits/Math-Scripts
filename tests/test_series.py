@@ -1,9 +1,9 @@
 from unittest import TestCase
-from series_sum import sum_of_terms
+from series import sum_of_terms
 
 
 # Test for series sum calculator
-class TestSeriesSum(TestCase):
+class TestSeries(TestCase):
 
     def test_sum_of_terms(self):
 

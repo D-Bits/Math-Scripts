@@ -10,5 +10,5 @@ below for more details.
 
 ## File Guide
 
-* dot_product.py: Gets a dot product based on user import.
-* series_sum.py: Calculates the sum of the first n terms in a  arithmetic series.
+* series.py: Functions involving arthimetic series.
+* vectors.py: Calculates involving vectors.
